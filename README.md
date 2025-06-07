@@ -7,7 +7,7 @@ This repo will replace the Rust programs in the [main repository](https://github
 
 # Roadmap
 
-- Refactor the emulator frontend, backend, and assembler into separate programs.
+- Refactor the emulator frontend, backend, and assembler into separate programs that can communicate via shared memory/TCP etc.
 - Possibly extend [QEMU](https://www.qemu.org/), this might be better in the long run, despite the complexity of QEMU.
 
 # Authors
