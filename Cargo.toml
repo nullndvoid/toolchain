@@ -3,5 +3,5 @@ resolver = "3"
 members = ["assembler"]
 
 [workspace.package]
-authors = ["Jacob Hinchliffe <jjh413@student.bham.ac.uk>", "zxq5"]
+authors = ["J. Hinchliffe <jjh413@student.bham.ac.uk>", "zxq5"]
 edition = "2024"

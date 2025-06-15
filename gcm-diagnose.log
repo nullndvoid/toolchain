@@ -1,0 +1,199 @@
+﻿Diagnose log at 2025-06-15T17:00:09Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Jacob
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-RR8FO14
+GIT_TRACE2_PARENT_SID=1c5e5bde-e63b-4f99-bc7b-efa47a89f7be
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\Jacob\OneDrive
+ChocolateyLastPathUpdate=133943918738371155
+EnableLog=INFO
+SESSIONNAME=Console
+TMP=C:\Users\Jacob\AppData\Local\Temp
+PROCESSOR_REVISION=9702
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+GIT_ASKPASS=c:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\Jacob\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Jacob\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+GOPATH=C:\Users\Jacob\go
+ProgramW6432=C:\Program Files
+JAVA_HOME=C:\Program Files\Amazon Corretto\jdk21.0.6_7
+USERDOMAIN=DESKTOP-RR8FO14
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Jacob\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Amazon Corretto\jdk21.0.6_7\bin;C:\Users\Jacob\.zvm\bin;C:\Users\Jacob\.zvm\self;C:\Program Files\qemu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\WireGuard\;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Jacob\.cargo\bin;C:\Users\Jacob\.zvm\self;C:\Users\Jacob\.zvm\bin;C:\Users\Jacob\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Jacob\AppData\Local\Programs\Python\Python312\;C:\Users\Jacob\AppData\Local\Programs\Python\Launcher\;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;C:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jacob\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Jacob\AppData\Local\Microsoft\WinGet\Links;C:\Users\Jacob\go\bin;C:\Users\Jacob\AppData\Local\gitkraken\bin;C:\Program Files\Caddy;C:\Users\Jacob\go\bin;C:\Users\Jacob\AppData\Roaming\npm;c:\Users\Jacob\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+TMPDIR=C:\Users\Jacob\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+TERM_PROGRAM_VERSION=1.101.0
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+PSModulePath=C:\Users\Jacob\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=20
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+VSCODE_INJECTION=1
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-b33938f4c7-sock
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ACSvcPort=17532
+ChocolateyInstall=C:\ProgramData\chocolatey
+ZVM_INSTALL=C:\Users\Jacob\.zvm\self
+VSCODE_GIT_ASKPASS_NODE=C:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\Code.exe
+RlsSvcPort=22112
+SystemRoot=C:\Windows
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+HOME=C:\Users\Jacob
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\DESKTOP-RR8FO14
+USERPROFILE=C:\Users\Jacob
+COLORTERM=truecolor
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-RR8FO14
+APPDATA=C:\Users\Jacob\AppData\Roaming
+HOMEDRIVE=C:
+ACSetupSvcPort=23210
+USERNAME=Jacob
+PROCESSOR_ARCHITEW6432=AMD64
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\Windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\Windows
+LANG=en_US.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Jacob\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Jacob\AppData\Local\Temp\3af74a92aa0c2c3073b55ef1'... OK
+Reading from temporary file 'C:\Users\Jacob\AppData\Local\Temp\3af74a92aa0c2c3073b55ef1'... OK
+Deleting temporary file 'C:\Users\Jacob\AppData\Local\Temp\3af74a92aa0c2c3073b55ef1'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Jacob
+UserDataDirectoryPath: C:\Users\Jacob\.gcm
+GetCurrentDirectory(): C:\Users\Jacob\Documents\Code\toolchain
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:58652/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.48.1.windows.1'
+Locating current repository...Git repository at 'C:/Users/Jacob/Documents/Code/toolchain/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Jacob/.gitconfig	safe.directory=C:/Users/Jacob/faceswap
+file:C:/Users/Jacob/.gitconfig	user.email=jjh413@student.bham.ac.uk
+file:C:/Users/Jacob/.gitconfig	user.name=J. Hinchliffe
+file:C:/Users/Jacob/.gitconfig	credential.https://git.zxq5.dev.provider=generic
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/nullndvoid/toolchain.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Jacob\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Jacob\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

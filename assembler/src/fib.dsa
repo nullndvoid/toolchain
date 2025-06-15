@@ -1,0 +1,40 @@
+// A fibonacci test program for this architecture.
+// Set up the stack.
+init:
+    // Pseudoinstruction. Assembler handles splitting literal and loading as required.
+    // imm 0x10, bpr      // Expanded to below code...
+
+    // Assumed to be zeroed. May not be, so C compiler should emit clr or XOR reg, reg.
+    lui 0, bpr
+    lli 0x10, bpr
+
+    mov bpr, spr
+
+
+// This program will write the first 16 fibonacci numbers to the stack.
+start:
+    ldb loopcounter, rg0
+
+    // Set up vars.
+    lli 1, rg2
+
+loop:
+    dec rg0
+    push rg2
+    add rg2, rg3, acc
+    mov rg2, rg3
+    mov acc, rg2
+
+    cmp rg0, rg1
+    jgt loop
+
+    hlt
+
+// Define a byte to store the loop counter. Note the identifier comes before
+// `db` directive. This just literally puts the value 15 as a byte into the
+// program.
+db loopcounter 15
+db testString "This is a string\n", 0
+
+// TODO: When parsing a line, two distinct tokens must be separated by a comma, else throw a parsing error.
+shart: dec (foo)bar, 213 rg1

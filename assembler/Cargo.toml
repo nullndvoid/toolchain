@@ -4,4 +4,12 @@ version = "0.1.0"
 edition.workspace = true
 authors.workspace = true
 
+[lib]
+name = "assembler"
+path = "src/lib.rs"
+
 [dependencies]
+dsa = { package = "damn_simple_architecture", git = "https://git.zxq5.dev/LowLevelDevs/damn_simple_architecture.git", rev = "5d1ea86cddbe1c20061715382df6d0d935c33423" }
+lasso = "0.7.3"
+logos = "0.15.0"
+parse_int = "0.9.0"
